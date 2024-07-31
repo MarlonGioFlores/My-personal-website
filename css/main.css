@@ -1,0 +1,44 @@
+.root{
+   --primary-color:#11998e;  /* fallback for old browsers */
+    --secondary-color:  #38ef7d  /* Chrome 10-25, Safari 5.1-6 */
+    --white: #fff;
+
+    --primary-font:"Poppins", sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.navbar-title{
+    
+    color: var(--white);
+}
+
+.header{
+    background: #11998e var(--primary-color);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+    background-color: blanchedalmond;
+}
